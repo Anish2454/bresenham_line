@@ -8,5 +8,6 @@ void clear_screen( screen s);
 void save_ppm( screen s, char *file);
 void save_extension( screen s, char *file);
 void display( screen s);
+void undefined_slope(int x0, int y0, int y1, screen s, color c);
 
 #endif

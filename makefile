@@ -3,6 +3,7 @@ CFLAGS= -Wall
 CC= gcc
 
 all: run
+	display lines.png
 
 main: $(OBJECTS)
 	$(CC) -o main $(OBJECTS)
